@@ -1,6 +1,6 @@
 .cnt{
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 60px);
   position: relative;
 }
 .iframe-cnt{
@@ -11,7 +11,7 @@
 .trans{
   position: absolute;
   width: 100%;
-  height: calc(50% - 44px);
+  height: calc(50% - 64px);
   background-color:#FFF;
   z-index: 10;
   bottom: 0;
