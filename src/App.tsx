@@ -1,5 +1,6 @@
 import queryString from "query-string";
 import "./App.css"
+//
 
 function App() {
   const search = window.location.search;
