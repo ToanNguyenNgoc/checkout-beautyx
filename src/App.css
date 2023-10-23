@@ -5,6 +5,6 @@
 }
 .iframe-cnt{
   width: 100%;
-  height: calc(50% + 200px);
+  height: calc(50% + 100px);
   overflow: hidden;
 }
