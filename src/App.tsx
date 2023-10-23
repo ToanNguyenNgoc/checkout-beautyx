@@ -10,6 +10,7 @@ function App() {
       <iframe
         className="iframe-cnt"
         src={`${params.payurl}&s=${params.s}`}
+        scrolling="no"
       />
       <div className="trans"></div>
     </div>
