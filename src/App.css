@@ -1,10 +1,35 @@
-.cnt{
+.cnt {
   width: 100vw;
   height: 100vh;
   position: relative;
 }
-.iframe-cnt{
+
+.iframe-cnt {
   width: 100%;
-  height: calc(50% + 120px);
+  height: 60%;
   overflow: hidden;
+}
+
+@supports (height: 100dvh) {
+  .cnt {
+    height: 100dvh;
+  }
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 12px 12px 20px;
+}
+
+.bottom button {
+  padding: 10px 5px;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 8px;
+  background-color: #d82d8b;
 }
