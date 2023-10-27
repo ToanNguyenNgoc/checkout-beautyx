@@ -5,10 +5,10 @@ import "./App.css"
 function App() {
   const search = window.location.search;
   const params = queryString.parse(search)
-  const openMomo = () => {
-    const newWindow = window.open(`${params.deepLink}`, '_blank', 'noopener,noreferrer');
-    if (newWindow) newWindow.opener = null
-  }
+  // const openMomo = () => {
+  //   const newWindow = window.open(`${params.deepLink}`, '_blank', 'noopener,noreferrer');
+  //   if (newWindow) newWindow.opener = null
+  // }
   return (
     <div className="cnt">
       <iframe
@@ -17,11 +17,11 @@ function App() {
         scrolling="no"
       />
       <div className="trans"></div>
-      <div className="bottom">
+      {/* <div className="bottom">
         <button onClick={openMomo}>
           Thanh toán bằng ví Momo
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
